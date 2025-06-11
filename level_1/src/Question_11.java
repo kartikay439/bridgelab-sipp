@@ -11,5 +11,16 @@
 //O/P => The addition, subtraction, multiplication and division
 // value of 2 numbers ___ and ___ is ___, ____, ____, and ___
 public class Question_11 {
+    public static void main(String[] args) {
+        System.out.print("Enter number 1 : ");
+        int num1 = Question_8.sc.nextInt();
+        System.out.print("Enter number 2 : ");
+        int num2 = Question_8.sc.nextInt();
+
+        System.out.println("Addition : " + num1+num2);
+        System.out.println("Subtraction : " + (num1-num2));
+        System.out.println("Multiplication : " + num1*num2);
+        System.out.println("Division : " + num1/num2);
+    }
 
 }
