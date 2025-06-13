@@ -18,7 +18,7 @@ public class Question_7 {
         if (num1 < num2 && num1 < num3) {
             System.out.println("first number is smallest");
         } else {
-            System.out.println("first number is not smallest");
+            System.out.println("first number is not smallest of all");
         }
     }
 }
