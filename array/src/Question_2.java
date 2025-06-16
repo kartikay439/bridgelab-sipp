@@ -1,51 +1,44 @@
-//Question 2
-//CP - Write a program to check if the first, second, or third number is the largest of the three.
-//I/P => number1, number2, number3
-//O/P =>
-//Is the first number the largest? ____
-//Is the second number the largest? ___
-//Is the third number the largest? ___
-
 import java.util.Scanner;
 
 public class Question_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter first number : ");
-        int num1 = sc.nextInt();
-        System.out.println("Enter second number : ");
-        int num2 = sc.nextInt();
-        System.out.println("Enter third number : ");
-        int num3 = sc.nextInt();
-        int a;
-        int b;
-        int c;
-        if (num1 > num2 && num1 > num3) {
-            a = num3;
-            if (num2 > num3) {
-                b = num2;
-                c = num3;
-            }else {
-                b=num3;c=num2;
-            }
+        System.out.print("Enter a natural number: ");
 
-        } else if (num1 > num2) {
-            a = num3;
-            b = num1;
-            c = num2;
-        } else if (num1 > num3) {
-            a = num2;
-            b = num1;
-            c = num3;
-        } else {
-            c = num1;
-            if (num2 > num3) {
-                a = num2;
-                b = num3;
-            }else {
-                a=num3;b=num2;
-            }
+        if (!sc.hasNextInt()) {
+            System.out.println("Invalid input. Please enter a natural number.");
+            return;
         }
-        System.out.println(a+" > "+b+" > "+c);
+
+        int n = sc.nextInt();
+        if (n < 1) {
+            System.out.println("Please enter a natural number greater than zero.");
+            return;
+        }
+
+        int[] odd = new int[n / 2 + 1];
+        int[] even = new int[n / 2 + 1];
+        int o = 0, e = 0;
+
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0)
+                even[e++] = i;
+            else
+                odd[o++] = i;
+        }
+
+        System.out.print("Odd : { ");
+        for (int i = 0; i < o; i++) {
+            System.out.print(odd[i]);
+            if (i < o - 1) System.out.print(", ");
+        }
+        System.out.println(" }");
+
+        System.out.print("Even : { ");
+        for (int i = 0; i < e; i++) {
+            System.out.print(even[i]);
+            if (i < e - 1) System.out.print(", ");
+        }
+        System.out.println(" }");
     }
 }

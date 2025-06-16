@@ -10,14 +10,6 @@ import java.util.Scanner;
 // 4. Print the factorial at the end
 public class Question_3 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number : ");
-        int number = sc.nextInt();
-        int factorial = 1;
-        while(number > 1){
-            factorial *= number--;
-        }
-
-        System.out.println("Factorial : "+factorial);
+        System.out.println(1.53 % 1.0);
     }
 }
