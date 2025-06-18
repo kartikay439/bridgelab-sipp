@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class Question_35 {
     public static void main(String[] args) {
-        System.out.println("This is Question_35");
+        Scanner sc = new Scanner(System.in);
+        // Your logic for question 35 here
+        sc.close();
     }
 }

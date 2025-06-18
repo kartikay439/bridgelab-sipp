@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Question_27 {
+public class Question_07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Your logic for question 27 here
+        // Your logic for question 7 here
         sc.close();
     }
 }
