@@ -15,6 +15,11 @@ bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
 
+bridgelab-sipp.iml
+Week 01 - Core Programming.iml
+.idea
+
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
