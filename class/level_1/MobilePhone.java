@@ -11,9 +11,17 @@ public class MobilePhone {
     String model;
     Double price;
 
+    public MobilePhone(String brand, String model, Double price) {
+        this.brand = brand;
+        this.model = model;
+        this.price = price;
+    }
+
+
+
       void ShowItemDetail(){
         System.out.println("Brand : "+brand);
-        System.out.println("Item Code: "+itemCode);
+        System.out.println("Model : "+model);
         System.out.println("Price : "+price);
      }
     

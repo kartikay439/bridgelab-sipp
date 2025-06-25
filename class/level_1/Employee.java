@@ -23,13 +23,3 @@ public class Employee{
      }
 
 }
-
-
-
- class Main {
-public static void main(String[] args) {
-    Employee e1  = new Employee("java", 120000D);
-    e1.showDetail();
-}
-    
-}
