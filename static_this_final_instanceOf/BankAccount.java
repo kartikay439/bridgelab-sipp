@@ -16,17 +16,19 @@ public class BankAccount {
         accountCounts++;
     }
 
+    //
     static int getTotalAccounts(){
         return accountCounts;
     }
     
     public void acchountDetail() {
-
+        
+        //Checking current object is instance of BankAccount
         if(this instanceof BankAccount){
         System.out.println("Account Number : " + accountNumber);
         System.out.println("Account Holder : " + accountHolderName);
         }
-        
+
     }
 
 
