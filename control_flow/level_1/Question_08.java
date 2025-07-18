@@ -14,7 +14,6 @@ public class Quetion_08{
             counter--;
         }
 
-        System.out.println("Liftoff! 🚀");
 
         sc.close();
     }
