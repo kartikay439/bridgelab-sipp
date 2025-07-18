@@ -23,29 +23,34 @@ Welcome! This document logs my daily learning progress in Java, Object-Oriented 
 
 ---
 
+* -> Completed
+
 ## 📅 Daily Log
 
-| Date       | Topics Covered                                         | Sample Problems                                    | Notes |
+| Date       | Practice Problem Topic                                 | Sample Problems                                    | Notes |
 |------------|--------------------------------------------------------|----------------------------------------------------|-------|
-| Jun 1     | Level 1 and Level 2 Lab Practices                      | Java programming element                           |       |
-| Jun 21     | Level 1, Level 2 and Level 3 Lab Practices             | Control Flow                                       |       |
-| Jun 11     |                                                        |                       |       |
+| Jun 09     |                                                        |                                                    |       |
+| Jun 10     | Practice problems*                                     | Basic Problems                                     |       |
+| Jun 11     | Level 1 and Level 2 Lab Practices*                     | Java programming element                           |       |
 | Jun 12     |                                                        |                                                    |       |
 | Jun 13     |                                                        |                                                    |       |
 | Jun 16     |                                                        |                                                    |       |
 | Jun 17     |                                                        |                                                    |       |
 | Jun 18     |                                                        |                                                    |       |
-| Jun 19     |                                                        |                                                    |       |
+| Jun 19     | Built-In Function Practice Problem*                    |                                                    |       |
 | Jun 20     |                                                        |                                                    |       |
-| Jun 23     |                                                        |                                                    |       |
+| Jun 23     | Level 1, Level 2 and Level 3 Lab Practice*             | Control Flow                                       |       |
+               (assinged on : 21 Jun)             
 | Jun 24     |                                                        |                                                    |       |
-| Jun 25     |                                                        |                                                    |       |
-| Jun 26     |                                                        |                                                    |       |
-| Jun 27     |                                                        |                                                    |       |
-| Jun 30     |                                                        |                                                    |       |
-| Jul 1      |                                                        |                                                    |       |
-| Jul 2      |                                                        |                                                    |       |
-| Jul 3      |                                                        |                                                    |       |
+| Jun 25     | Arrays Practices  (assigned on : 21 Jun)               | Array                                              |       |
+| Jun 26     | Java String Practices*  (assigned on : 21 Jun)         | String                                             |       |
+| Jun 27     | Java Methods Practices  (assigned on : 21 Jun)         | Methods                                            |       |
+| Jun 30     | Java String Practice Extras (assigned on : 21 Jun)     | String                                             |       |
+| Jul 1      | Java Class and Object       (assigned on : 21 Jun)     |                                                    |       |
+| Jul 2      | Java Constructors, Instance vs. Class Variables,       |                                                    |       |
+               Access Modifiers Level 1 Lab Practice*  
+               (assigned on : 24 Jun)                                                  
+| Jul 3      | this static final*  (assigned on : 24 Jun)             |                                                    |       |
 | Jul 4      |                                                        |                                                    |       |
 | Jul 7      |                                                        |                                                    |       |
 | Jul 8      |                                                        |                                                    |       |
@@ -64,24 +69,3 @@ Welcome! This document logs my daily learning progress in Java, Object-Oriented 
 | Jul 25     |                                                        |                                                    |       |
 | Jul 28     |                                                        |                                                    |       |
 
----
-
-## 📦 Mini-Projects / Exercises
-
-- ✅ Grocery Bill Generator
-- ✅ Bird Sanctuary Manager
-- ✅ Address Book System
-- ✅ Contact Phone Directory
-- ✅ Flight Scheduling using Generics
-
----
-
-## ✨ How to Use This Log
-
-- ✅ Fill "Notes" column daily
-- ✅ Add resource links or screenshots if needed
-- ✅ Track your CodIn Review comments separately
-
----
-
-> ⚡ *Consistency + Reflection = Growth!*
