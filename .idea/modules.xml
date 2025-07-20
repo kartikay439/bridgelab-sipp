@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/bridgelab-sipp.iml" filepath="$PROJECT_DIR$/bridgelab-sipp.iml" />
       <module fileurl="file://$PROJECT_DIR$/control_flow/control_flow.iml" filepath="$PROJECT_DIR$/control_flow/control_flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/string_methods/string_methods.iml" filepath="$PROJECT_DIR$/string_methods/string_methods.iml" />
     </modules>
   </component>
 </project>
