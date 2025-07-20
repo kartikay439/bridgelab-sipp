@@ -7,6 +7,8 @@
 //I/P => fee, discountPrecent
 //O/P => The discount amount is INR ___ and final discounted fee is INR ___
 
+import level_1.Question_8;
+
 public class Question_9 {
 
     static double findDiscountedPrice(int discount, int amount) {

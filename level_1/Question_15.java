@@ -4,6 +4,8 @@
 //O/P => The total purchase price is INR ___ if the quantity ___ and unit price is INR ___
 
 
+import level_1.Question_8;
+
 public class Question_15 {
     public static void main(String[] args) {
         System.out.println("Enter unit price : ");

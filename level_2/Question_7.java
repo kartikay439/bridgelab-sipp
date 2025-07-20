@@ -14,6 +14,8 @@
 //I/P => fee, discountPrecent
 //O/P => The results of Int Operations are ___, ___, and ___
 
+import level_1.Question_2;
+
 public class Question_7 {
     public static void main(String[] args) {
         System.out.print("Enter a : ");

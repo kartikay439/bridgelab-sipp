@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question_12_String_String {
+public class Question_12_String {
     public static int getLength(String text) {
         int count = 0;
         try {

@@ -7,6 +7,8 @@
 // and division and assign the result to a var
 // iable and finally print the result
 
+import level_1.Question_8;
+
 //I/P => number1, number2
 //O/P => The addition, subtraction, multiplication and division
 // value of 2 numbers ___ and ___ is ___, ____, ____, and ___
