@@ -1,0 +1,8 @@
+ENUM TrafficLight
+	RED
+	ORANGE
+	GREEN
+END ENUM
+
+CLASS TrafficSignal
+	VARIABLE : CurrentLight
